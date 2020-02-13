@@ -7,7 +7,10 @@ export default class PokeItem extends Component {
                     <h2>{this.props.pokemon.pokemon.toUpperCase()}</h2>
                     <img src={this.props.pokemon.url_image} alt={this.props.pokemon.pokemon} />
                     <p>HP: {this.props.pokemon.hp}</p>
-                    <p>Type: {this.props.pokemon.type_1}</p>
+                    <p>Types: 
+                        <span> {this.props.pokemon.type_1}</span>
+                        <span>, {this.props.pokemon.type_2} </span>
+                    </p>
                 </li>
         )
     }

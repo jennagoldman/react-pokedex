@@ -2,6 +2,7 @@ body {
   color: #333;
   background: #FCCA04;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
@@ -16,7 +17,7 @@ header {
 h1 {
   color: #F64C71;
   font-family: 'Bangers', sans-serif;
-  font-size: 48px;
+  font-size: 56px;
   text-shadow: 2px 2px #FFF;
   letter-spacing: 1px;
   margin: 10px;

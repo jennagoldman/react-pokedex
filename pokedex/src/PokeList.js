@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import pokemonData from './data';
 import PokeItem from './PokeItem';
 
 export default class PokeList extends Component {
+
     render() {
+        
         return (
             <main>
                 <section className="search-container">
@@ -11,7 +12,7 @@ export default class PokeList extends Component {
                 </section>
                 <section className="pokemon-list">
                     <ul>
-                        { pokemonData.map(pokemon => <PokeItem pokemon={pokemon} key={pokemon.species_id} />)}
+                        {this.props.data.map(pokemon => <PokeItem pokemon={pokemon} key={pokemon._id} />)}
                     </ul>
                 </section>
             </main>
