@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class PokeItem extends Component {
     render() {
         return (
-            <div className="pokemon-item">
-                <h2>Pokemon Name</h2>
-                <img src="" alt="" />
-                <p>Pokemon HP</p>
-                <p>Pokemon Type</p>
-            </div>
+                <li className="pokemon-item">
+                    <h2>{this.props.pokemon.pokemon.toUpperCase()}</h2>
+                    <img src={this.props.pokemon.url_image} alt={this.props.pokemon.pokemon} />
+                    <p>HP: {this.props.pokemon.hp}</p>
+                    <p>Type: {this.props.pokemon.type_1}</p>
+                </li>
         )
     }
 }

@@ -1,4 +1,4 @@
-export const pokemonData = [
+const pokemonData = [
     {
         "_id": "5cef3501ef6005a77cd4fd16",
         "pokemon": "venusaur",
@@ -660,3 +660,5 @@ export const pokemonData = [
         "pokedex": "http://www.pokemon.com/us/pokedex/pidgey"
     }
 ]
+
+export default pokemonData;

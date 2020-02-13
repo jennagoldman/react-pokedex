@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pokemonData from './data';
 import PokeItem from './PokeItem';
 
 export default class PokeList extends Component {
@@ -9,7 +10,9 @@ export default class PokeList extends Component {
 
                 </section>
                 <section className="pokemon-list">
-                    <PokeItem />
+                    <ul>
+                        { pokemonData.map(pokemon => <PokeItem pokemon={pokemon} key={pokemon.species_id} />)}
+                    </ul>
                 </section>
             </main>
         )
