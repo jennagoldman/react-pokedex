@@ -24,16 +24,19 @@ exports[`App renders correctly 1`] = `
           80
         </p>
         <p>
-          Types:
           <span>
-             
-            grass
+            Attack: 
+            82
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            83
           </span>
+        </p>
+        <p>
+          Type: 
+          grass
         </p>
       </li>
       <li
@@ -51,16 +54,19 @@ exports[`App renders correctly 1`] = `
           45
         </p>
         <p>
-          Types:
           <span>
-             
-            grass
+            Attack: 
+            49
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            49
           </span>
+        </p>
+        <p>
+          Type: 
+          grass
         </p>
       </li>
       <li
@@ -78,16 +84,19 @@ exports[`App renders correctly 1`] = `
           80
         </p>
         <p>
-          Types:
           <span>
-             
-            grass
+            Attack: 
+            100
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            123
           </span>
+        </p>
+        <p>
+          Type: 
+          grass
         </p>
       </li>
       <li
@@ -105,16 +114,19 @@ exports[`App renders correctly 1`] = `
           60
         </p>
         <p>
-          Types:
           <span>
-             
-            grass
+            Attack: 
+            62
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            63
           </span>
+        </p>
+        <p>
+          Type: 
+          grass
         </p>
       </li>
       <li
@@ -132,16 +144,19 @@ exports[`App renders correctly 1`] = `
           39
         </p>
         <p>
-          Types:
           <span>
-             
-            fire
+            Attack: 
+            52
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            43
           </span>
+        </p>
+        <p>
+          Type: 
+          fire
         </p>
       </li>
       <li
@@ -159,16 +174,19 @@ exports[`App renders correctly 1`] = `
           58
         </p>
         <p>
-          Types:
           <span>
-             
-            fire
+            Attack: 
+            64
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            58
           </span>
+        </p>
+        <p>
+          Type: 
+          fire
         </p>
       </li>
       <li
@@ -186,16 +204,19 @@ exports[`App renders correctly 1`] = `
           78
         </p>
         <p>
-          Types:
           <span>
-             
-            fire
+            Attack: 
+            84
           </span>
+           | 
           <span>
-            , 
-            flying
-             
+            Defense: 
+            78
           </span>
+        </p>
+        <p>
+          Type: 
+          fire
         </p>
       </li>
       <li
@@ -213,16 +234,19 @@ exports[`App renders correctly 1`] = `
           78
         </p>
         <p>
-          Types:
           <span>
-             
-            fire
+            Attack: 
+            130
           </span>
+           | 
           <span>
-            , 
-            dragon
-             
+            Defense: 
+            111
           </span>
+        </p>
+        <p>
+          Type: 
+          fire
         </p>
       </li>
       <li
@@ -240,16 +264,19 @@ exports[`App renders correctly 1`] = `
           78
         </p>
         <p>
-          Types:
           <span>
-             
-            fire
+            Attack: 
+            104
           </span>
+           | 
           <span>
-            , 
-            flying
-             
+            Defense: 
+            78
           </span>
+        </p>
+        <p>
+          Type: 
+          fire
         </p>
       </li>
       <li
@@ -267,16 +294,19 @@ exports[`App renders correctly 1`] = `
           44
         </p>
         <p>
-          Types:
           <span>
-             
-            water
+            Attack: 
+            48
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            65
           </span>
+        </p>
+        <p>
+          Type: 
+          water
         </p>
       </li>
       <li
@@ -294,16 +324,19 @@ exports[`App renders correctly 1`] = `
           59
         </p>
         <p>
-          Types:
           <span>
-             
-            water
+            Attack: 
+            63
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            80
           </span>
+        </p>
+        <p>
+          Type: 
+          water
         </p>
       </li>
       <li
@@ -321,16 +354,19 @@ exports[`App renders correctly 1`] = `
           79
         </p>
         <p>
-          Types:
           <span>
-             
-            water
+            Attack: 
+            83
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            100
           </span>
+        </p>
+        <p>
+          Type: 
+          water
         </p>
       </li>
       <li
@@ -348,16 +384,19 @@ exports[`App renders correctly 1`] = `
           79
         </p>
         <p>
-          Types:
           <span>
-             
-            water
+            Attack: 
+            103
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            120
           </span>
+        </p>
+        <p>
+          Type: 
+          water
         </p>
       </li>
       <li
@@ -375,16 +414,19 @@ exports[`App renders correctly 1`] = `
           45
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            30
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            35
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -402,16 +444,19 @@ exports[`App renders correctly 1`] = `
           50
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            20
           </span>
+           | 
           <span>
-            , 
-            NA
-             
+            Defense: 
+            55
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -429,16 +474,19 @@ exports[`App renders correctly 1`] = `
           65
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            90
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            40
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -456,16 +504,19 @@ exports[`App renders correctly 1`] = `
           40
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            35
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            30
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -483,16 +534,19 @@ exports[`App renders correctly 1`] = `
           45
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            25
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            50
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -510,16 +564,19 @@ exports[`App renders correctly 1`] = `
           65
         </p>
         <p>
-          Types:
           <span>
-             
-            bug
+            Attack: 
+            150
           </span>
+           | 
           <span>
-            , 
-            poison
-             
+            Defense: 
+            40
           </span>
+        </p>
+        <p>
+          Type: 
+          bug
         </p>
       </li>
       <li
@@ -537,16 +594,19 @@ exports[`App renders correctly 1`] = `
           40
         </p>
         <p>
-          Types:
           <span>
-             
-            normal
+            Attack: 
+            45
           </span>
+           | 
           <span>
-            , 
-            flying
-             
+            Defense: 
+            40
           </span>
+        </p>
+        <p>
+          Type: 
+          normal
         </p>
       </li>
     </ul>
