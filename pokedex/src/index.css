@@ -46,6 +46,11 @@ ul {
   width: 250px;
 }
 
+h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
 .pokemon-item p {
   text-transform: capitalize;
 }
