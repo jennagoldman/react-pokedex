@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <h1>
+      Gotta Catch 'Em All!
+    </h1>
+  </header>
+  <main>
+    <section
+      className="search-container"
+    />
+    <section
+      className="pokemon-list"
+    >
+      <ul />
+    </section>
+  </main>
+</div>
+`;
