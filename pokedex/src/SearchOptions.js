@@ -16,7 +16,7 @@ export default class Search extends Component {
         const queryString = window.location.hash.slice(1);
         const searchParams = new URLSearchParams(queryString);
 
-    this.setState({ searchInput: searchParams.get('s') || '' });
+    this.setState({ searchInput: searchParams.get('pokemon') || '' });
     }
     handleSubmit = event => {
         const form = document.getElementById('search-form');
@@ -26,7 +26,7 @@ export default class Search extends Component {
         const queryString = window.location.hash.slice(1);
         const searchParams = new URLSearchParams(queryString);
 
-        searchParams.set('s', formData.get('search'));
+        searchParams.set('pokemon', formData.get('search'));
         searchParams.set('page', 1);
 
         window.location.hash = searchParams.toString();

@@ -15,7 +15,7 @@ export default class App extends Component {
   async loadPokemon() {
     const response = await getPokemon();
     const pokemon = response.results;
-    const totalResults = response.totalResults;
+    const totalResults = response.count;
     
     this.setState({
       pokemon: pokemon,
@@ -24,6 +24,8 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
+    window.location.hash = 'sort=id';
+    
     await this.loadPokemon();
     
     window.addEventListener('hashchange', async () => {
