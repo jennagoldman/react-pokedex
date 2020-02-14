@@ -29,7 +29,7 @@ export default class Search extends Component {
     handleSubmit = event => {
         event.preventDefault();
 
-        const form = document.getElementById('search-form');
+        const form = document.getElementById('searchForm');
         const formData = new FormData(form);
 
         const queryString = window.location.hash.slice(1);
