@@ -8,28 +8,30 @@ import PokeList from './PokeList';
 
 export default class App extends Component {
   state = {
-    pokemon: [],
-    totalResults: 0
+    pokemon: []
   };
 
   async loadPokemon() {
     const response = await getPokemon();
     const pokemon = response.results;
     const totalResults = response.count;
+
+    console.log(pokemon);
     
     this.setState({
       pokemon: pokemon,
-      totalResults: totalResults
+      totalResults: totalResults,
     });
   }
 
-  async componentDidMount() {
-    window.location.hash = 'sort=id';
+  
 
+  async componentDidMount() {
+    window.location.hash = 'sort=id&page=1';
+    
     await this.loadPokemon();
     
     window.addEventListener('hashchange', async () => {
-      console.log("change")
       await this.loadPokemon();
     });
   }
@@ -42,7 +44,7 @@ export default class App extends Component {
         <Header />
         <main>
           <SearchOptions />
-          <Paging totalResultsProp={totalResults} />
+          <Paging totalResults={totalResults} />
           <PokeList pokemon={pokemon} />
         </main>
       </div>

@@ -18,6 +18,7 @@ export async function getPokemon() {
     }
     console.log(data);
     return data;
+    
 }
 
 
