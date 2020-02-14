@@ -29,15 +29,13 @@ main {
   padding: 20px;
 }
 
-input {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  border: none;
-  margin: 5px;
-  padding: 5px 10px;
-  width: 150px;
+#search-form {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-
 #search-form button {
   color: #FFF;
   background: #F64C71;
@@ -48,6 +46,21 @@ input {
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
+}
+
+#search-form select {
+  font-size: 16px;
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  border: none;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 150px;
 }
 
 ul {
