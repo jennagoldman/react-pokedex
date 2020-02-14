@@ -48,8 +48,8 @@ export default class Search extends Component {
 
     render() {
         return (
-            <section className="search-container">
-                <form id="search-form" onSubmit={this.handleSubmit}>
+            <section className="searchContainer">
+                <form id="searchForm" onSubmit={this.handleSubmit}>
                     <select name="type" onChange={e => this.setState({ typeInput: e.target.value })}>
                         <option value="all">All types</option> 
                         <option value="bug">Bug</option> 
@@ -71,13 +71,7 @@ export default class Search extends Component {
                         <option value="steel">Steel</option> 
                         <option value="water">Water</option> 
                     </select>
-                    <input 
-                        type="text"
-                        name="search"
-                        placeholder="Enter Pokemon Name"
-                        onChange={e => this.setState({ searchInput: e.target.value })}
-                        value={this.state.searchInput} 
-                    />
+                    <input type="text" name="search" placeholder="Enter Pokemon Name" onChange={e => this.setState({ searchInput: e.target.value })} value={this.state.searchInput} />
                     <button>Search</button>
                 </form>
             </section>

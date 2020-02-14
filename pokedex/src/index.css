@@ -11,7 +11,8 @@ body {
 header {
   text-align: center;
   text-transform: uppercase;
-  padding: 20px;
+  margin-bottom: 0;
+  padding-top: 20px;
 }
 
 h1 {
@@ -25,16 +26,17 @@ h1 {
 
 main {
   text-align: center;
+  margin-top: 0;
   margin-bottom: 50px;
   padding: 20px;
 }
 
-#search-form {
-  padding: 20px;
-  width: 400px;
-  margin: 0 auto;
+#searchForm {
   display: flex;
   justify-content: space-between;
+  width: 400px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
 }
 
 button {
@@ -49,28 +51,22 @@ button {
   padding: 5px 10px;
 }
 
-#search-form select {
-  font-size: 16px;
+#searchForm select {
   display: inline-block;
   width: 100px;
+  font-size: 16px;
 }
 
 input {
+  width: 175px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   border: none;
   margin: 5px;
   padding: 5px 10px;
-  width: 175px;
 }
 
-/* #paging-container {
-  display: flex;
-  justify-content: flex-end;
-  margin
-} */
-
-#paging-span {
+#pagingSpan {
   padding: 5px;
 }
 
@@ -80,15 +76,15 @@ ul {
   padding-inline-start: 0;
 }
 
-.pokemon-item {
+.pokemonItem {
+  display: inline-block;
+  width: 250px;
   color: #333;
   background: #FFF;
+  border: none;
   border-radius: 15px;
-  display: inline-block;
   padding: 15px;
   margin: 15px;
-  border: none;
-  width: 250px;
 }
 
 h2 {
@@ -96,10 +92,10 @@ h2 {
   text-transform: uppercase;
 }
 
-.pokemon-item p {
+.pokemonItem p {
   text-transform: capitalize;
 }
 
-.pokemon-item img {
+.pokemonItem img {
   width: 90%;
 }

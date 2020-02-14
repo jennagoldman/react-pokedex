@@ -62,11 +62,11 @@ export default class SearchOptions extends Component {
         const lastPage = Math.ceil(totalResults / perPage);
 
         return (
-            <div id="paging-container">
+            <div id="pagingContainer">
                 <button id="previous" onClick={() => this.updatePage(-1)} disabled={pageToUse === 1 ? true : ''}>
                     Prev
                 </button>
-                <span id="paging-span">Page {pageToUse} of {lastPage}</span>
+                <span id="pagingSpan">Page {pageToUse} of {lastPage}</span>
                 <button id="next" onClick={() => this.updatePage(1)} disabled={pageToUse === lastPage ? 'true' : ''}>
                     Next
                 </button>
