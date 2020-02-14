@@ -25,7 +25,7 @@ export default class App extends Component {
 
   async componentDidMount() {
     window.location.hash = 'sort=id';
-    
+
     await this.loadPokemon();
     
     window.addEventListener('hashchange', async () => {

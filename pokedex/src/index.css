@@ -57,10 +57,11 @@ main {
 input {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  text-align: center;
   border: none;
   margin: 5px;
   padding: 5px 10px;
-  width: 150px;
+  width: 175px;
 }
 
 ul {

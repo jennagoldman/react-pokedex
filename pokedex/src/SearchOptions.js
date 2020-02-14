@@ -19,8 +19,13 @@ export default class Search extends Component {
         const queryString = window.location.hash.slice(1);
         const searchParams = new URLSearchParams(queryString);
 
-    this.setState({ searchInput: searchParams.get('pokemon') || '' });
+        this.setState({ 
+            searchInput: searchParams.get('pokemon') || '',
+            typeInput: searchParams.get('type') || ''
+    });
     }
+
+
     handleSubmit = event => {
         event.preventDefault();
 
@@ -31,8 +36,12 @@ export default class Search extends Component {
         const searchParams = new URLSearchParams(queryString);
 
         searchParams.set('pokemon', formData.get('search'));
-        searchParams.set('page', 1)
         searchParams.set('type', formData.get('type'));
+        searchParams.set('page', 1)
+
+        if (searchParams.get('type') === 'all') {
+            searchParams.delete('type');
+        }
 
         window.location.hash = searchParams.toString();
     };
@@ -42,7 +51,7 @@ export default class Search extends Component {
             <section className="search-container">
                 <form id="search-form" onSubmit={this.handleSubmit}>
                     <select name="type" onChange={e => this.setState({ typeInput: e.target.value })}>
-                        <option value="" defaultValue>All types</option> 
+                        <option value="all">All types</option> 
                         <option value="bug">Bug</option> 
                         <option value="dark">Dark</option>
                         <option value="dragon">Dragon</option>
@@ -65,6 +74,7 @@ export default class Search extends Component {
                     <input 
                         type="text"
                         name="search"
+                        placeholder="Enter Pokemon Name"
                         onChange={e => this.setState({ searchInput: e.target.value })}
                         value={this.state.searchInput} 
                     />
