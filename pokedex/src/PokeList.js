@@ -8,7 +8,7 @@ export default class PokeList extends Component {
         return (
             <section className="pokemon-list">
                 <ul>
-                    {this.props.data.map(pokemon => <PokeItem pokemon={pokemon} key={pokemon._id} />)}
+                    {this.props.pokemon.map(pokemon => <PokeItem pokemon={pokemon} key={pokemon._id} />)}
                 </ul>
             </section>
 
