@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
 export default class SearchOptions extends Component {
-    constructor() {
-        super();
-        this.state = { page: 1 };
+    state = {
+        page: 1
     }
 
     componentDidMount() {
